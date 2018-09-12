@@ -1,0 +1,38 @@
+{
+    "name": "zerquix18/LaraActions",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis A. Martinez (@Zerquix18)",
+            "email": "contact@zerquix18.com",
+            "homepage": "https://www.zerquix18.com/"
+        }
+    ],
+    "homepage": "https://github.com/zerquix18/LaraActions",
+    "keywords": ["Laravel", "Actions"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zerquix18\\LaraActions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zerquix18\\LaraActions\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zerquix18\\LaraActions\\LaraActionsServiceProvider"
+            ]
+        }
+    }
+}
